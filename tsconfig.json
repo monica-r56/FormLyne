@@ -1,0 +1,27 @@
+{
+  "extends": "./tsconfig.paths.json",
+  "compilerOptions": {
+    "jsx": "react-jsx", // Allow JSX without requiring React import in every file
+    "target": "esnext", // Modern JavaScript features (optimizes for modern browsers)
+    "esModuleInterop": true, // Enable compatibility with CommonJS modules
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "forceConsistentCasingInFileNames": true, // Ensures consistent casing in file names
+    "strict": true, // Enable strict type checking
+    "skipLibCheck": true, // Skip type checking of declaration files for faster builds
+    "outDir": "dist", // Specify the output directory for compiled files
+    "moduleResolution": "node", // Resolve modules as Node.js does
+    "resolveJsonModule": true, // Allows importing JSON files as modules
+    "types": ["node", "jest", "@testing-library/jest-dom", "webpack-env", "react", "react-dom"], // Include types for React and other common libraries
+    "module": "esnext", // Output ES modules
+    "declaration": true, // Generate declaration files (.d.ts) for library projects
+    "strictFunctionTypes": true, // Enforce strict checking of function parameters
+    // "noUnusedLocals": true, // Error on unused local variables
+    "noUnusedParameters": true, // Error on unused function parameters
+    "noImplicitAny": true, // Disallow implicit 'any' type
+    "isolatedModules": true, // Treat each file as an isolated module for better compatibility with bundlers
+    "sourceMap": true, // Enable source maps for easier debugging
+    "incremental": true // Enable incremental compilation for faster builds
+  },
+  "include": ["**/*.ts", "**/*.tsx", "**/*.json", "**/*.js"],
+  "files": ["globals.d.ts"]
+}

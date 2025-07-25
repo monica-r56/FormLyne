@@ -1,0 +1,706 @@
+{
+  "Root.root_app": {
+    "translation": "Root App"
+  },
+  "Root.something_went_wrong": {
+    "translation": "Something went wrong"
+  },
+  "app.components.molecules.audioPlayer.continue": {
+    "translation": "Continue"
+  },
+  "app.components.molecules.audioPlayer.failed": {
+    "translation": "Failed"
+  },
+  "app.components.molecules.audioPlayer.heardNo": {
+    "translation": "No, I didn't hear"
+  },
+  "app.components.molecules.audioPlayer.heardYes": {
+    "translation": "Yes, I heard"
+  },
+  "app.components.molecules.audioPlayer.helpLink": {
+    "translation": "Speaker not working? Here’s 5 ways to fix it."
+  },
+  "app.components.molecules.audioPlayer.passed": {
+    "translation": "Passed"
+  },
+  "app.components.molecules.audioPlayer.passedDescription1": {
+    "translation": "Your speaker is working as expected. You’re good to go!"
+  },
+  "app.components.molecules.audioPlayer.passedDescription2": {
+    "translation": "We can detect your speaker and it’s working as expected."
+  },
+  "app.components.molecules.audioPlayer.passedPrompt": {
+    "translation": "Did you hear the test sound? Confirm if you heard it."
+  },
+  "app.components.molecules.audioPlayer.passedTitle": {
+    "translation": "Speaker working"
+  },
+  "app.components.molecules.audioPlayer.retest": {
+    "translation": "Retest"
+  },
+  "app.components.molecules.audioPlayer.speaker": {
+    "translation": "Speaker"
+  },
+  "app.components.molecules.audioPlayer.speakerLabel": {
+    "translation": "Select speaker device"
+  },
+  "app.components.molecules.audioPlayer.speakerNotWorkingDescription1": {
+    "translation": "Your speaker was detected but isn’t working as expected."
+  },
+  "app.components.molecules.audioPlayer.speakerNotWorkingDescription2": {
+    "translation": "You must pass this check to move forward. Please review your speaker and try again."
+  },
+  "app.components.molecules.audioPlayer.speakerNotWorkingTitle": {
+    "translation": "Speaker not working"
+  },
+  "app.components.molecules.audioPlayer.speakerWorkingDescription": {
+    "translation": "We can detect your speaker and it’s working as expected."
+  },
+  "app.components.molecules.audioPlayer.speakerWorkingTitle": {
+    "translation": "Speaker working"
+  },
+  "app.components.molecules.audioPlayer.testing": {
+    "translation": "Testing"
+  },
+  "app.components.molecules.audioPlayer.testingBottomText": {
+    "translation": "Did you hear the test sound? Confirm if you heard it."
+  },
+  "app.components.molecules.audioPlayer.testingTopText1": {
+    "translation": "Playing test sound now."
+  },
+  "app.components.molecules.audioPlayer.testingTopText2": {
+    "translation": "Make sure your volume is turned up."
+  },
+  "app.components.molecules.audioPlayer.unknownSpeaker": {
+    "translation": "Unknown speaker"
+  },
+  "app.molecule.Menu.listItem1": {
+    "translation": "List Item 1"
+  },
+  "app.molecule.Menu.listItem2": {
+    "translation": "List Item 2"
+  },
+  "app.molecule.Menu.listItem3": {
+    "translation": "List Item 3"
+  },
+  "app.molecule.Menu.listItem4": {
+    "translation": "List Item 4"
+  },
+  "app.molecule.Menu.shortlistAndSchedule": {
+    "translation": "Shortlist & schedule interview"
+  },
+  "atoms.Badge.ariaLabel": {
+    "translation": "Badge"
+  },
+  "atoms.Badge.button.cta": {
+    "translation": "Button CTA"
+  },
+  "atoms.Badge.content.99plus": {
+    "translation": "99+"
+  },
+  "atoms.Badge.content.new": {
+    "translation": "New"
+  },
+  "atoms.Badge.icon.star": {
+    "translation": "⭐"
+  },
+  "atoms.Badge.loading": {
+    "translation": "Loading"
+  },
+  "atoms.Card.loading": {
+    "translation": "Loading"
+  },
+  "atoms.Card.test": {
+    "translation": "Test"
+  },
+  "atoms.Divider.nav.logout": {
+    "translation": "Logout"
+  },
+  "atoms.Divider.nav.profile": {
+    "translation": "Profile"
+  },
+  "atoms.Divider.nav.settings": {
+    "translation": "Settings"
+  },
+  "atoms.Divider.section.one": {
+    "translation": "Section One"
+  },
+  "atoms.Divider.section.one.content": {
+    "translation": "This is the content for the first section."
+  },
+  "atoms.Divider.section.two": {
+    "translation": "Section Two"
+  },
+  "atoms.Divider.section.two.content": {
+    "translation": "This is the content for the second section."
+  },
+  "atoms.Divider.text.long": {
+    "translation": "This is a very long text that should be truncated when it exceeds the maximum width"
+  },
+  "atoms.Divider.text.medium": {
+    "translation": "Medium Text"
+  },
+  "atoms.Divider.text.xl": {
+    "translation": "XL Text"
+  },
+  "atoms.Input.ariaLabel": {
+    "translation": "Input Field"
+  },
+  "atoms.Overlay.cancelButton": {
+    "translation": "Cancel"
+  },
+  "atoms.Overlay.loadingText": {
+    "translation": "Loading..."
+  },
+  "atoms.Overlay.loginButton": {
+    "translation": "Log In"
+  },
+  "atoms.Overlay.loginFormTitle": {
+    "translation": "Login Form"
+  },
+  "atoms.Overlay.passwordLabel": {
+    "translation": "Password"
+  },
+  "atoms.Overlay.passwordPlaceholder": {
+    "translation": "Enter your password"
+  },
+  "atoms.Overlay.usernameLabel": {
+    "translation": "Username"
+  },
+  "atoms.Overlay.usernamePlaceholder": {
+    "translation": "Enter your username"
+  },
+  "atoms.PlaybackSpeed.decreasing": {
+    "translation": "Decreasing Speed"
+  },
+  "atoms.PlaybackSpeed.increasing": {
+    "translation": "Increasing Speed"
+  },
+  "atoms.PlaybackSpeed.value": {
+    "translation": "x"
+  },
+  "atoms.ProgressIndicator.ariaLabel": {
+    "translation": "Progress"
+  },
+  "atoms.ProgressIndicator.label": {
+    "translation": "Text Label"
+  },
+  "atoms.ProgressIndicator.value": {
+    "translation": "%"
+  },
+  "atoms.Slider.thumbLabel": {
+    "translation": "Thumb"
+  },
+  "atoms.Tags.avatarAlt": {
+    "notes": "Alt text for the avatar icon in a tag",
+    "translation": "Avatar"
+  },
+  "atoms.Tags.buttonText": {
+    "notes": "Element have inner text that is visible to screen readers",
+    "translation": "Dismiss tag"
+  },
+  "atoms.Textarea.ariaLabel": {
+    "translation": "Text Area"
+  },
+  "atoms.Tooltip.basic.button": {
+    "translation": "Hover me"
+  },
+  "atoms.Tooltip.basic.label": {
+    "translation": "Basic tooltip"
+  },
+  "atoms.Tooltip.delay.label": {
+    "translation": "Delayed tooltip"
+  },
+  "atoms.Tooltip.description.label": {
+    "translation": "Tooltip with description"
+  },
+  "atoms.Tooltip.description.text": {
+    "translation": "This is a longer description that provides more detailed information about the element."
+  },
+  "atoms.Tooltip.disabled.button": {
+    "translation": "Disabled"
+  },
+  "atoms.Tooltip.disabled.label": {
+    "translation": "Disabled tooltip"
+  },
+  "atoms.Tooltip.icon.label": {
+    "translation": "Icon tooltip"
+  },
+  "atoms.Tooltip.position.label": {
+    "translation": "Positioned tooltip"
+  },
+  "atoms.Tooltip.withArrow.label": {
+    "translation": "Tooltip with arrow"
+  },
+  "atoms.VolumeControl.mute": {
+    "translation": "Mute"
+  },
+  "atoms.VolumeControl.unmute": {
+    "translation": "Unmute"
+  },
+  "atoms.chatBubbleReply.attachmentFallback": {
+    "translation": "Attachment"
+  },
+  "atoms.chatBubbleReply.imageAlt": {
+    "translation": "file preview"
+  },
+  "atoms.chatBubbleReply.photoFallback": {
+    "translation": "Photo"
+  },
+  "atoms.chatBubbleReply.replyPreviewAriaLabel": {
+    "translation": "Reply preview"
+  },
+  "modal.body": {
+    "translation": "This is a modal"
+  },
+  "modal.cta.clicked": {
+    "translation": "Confirm Action"
+  },
+  "modal.cta.content.initial": {
+    "translation": "Click 'Save Changes' to see the button disable behavior. The clicked button will be disabled while other buttons remain enabled."
+  },
+  "modal.cta.content.loaded": {
+    "translation": "Action completed successfully! The primary button was disabled after clicking to prevent duplicate actions."
+  },
+  "modal.cta.content.note": {
+    "translation": "Notice how the 'Save Changes' button remains disabled while the 'Cancel' button stays enabled."
+  },
+  "modal.form.dropdownLabel": {
+    "translation": "Select Option"
+  },
+  "modal.form.nameLabel": {
+    "translation": "Name"
+  },
+  "modal.form.option1": {
+    "translation": "Option 1"
+  },
+  "modal.form.option2": {
+    "translation": "Option 2"
+  },
+  "modal.form.option3": {
+    "translation": "Option 3"
+  },
+  "modal.form.title": {
+    "translation": "Form Modal"
+  },
+  "modal.loading.content": {
+    "translation": "This content will be hidden while loading initially. The footer buttons are hidden with opacity 0% but maintain their height to prevent layout shift."
+  },
+  "modal.loading.initial": {
+    "translation": "Loading Content..."
+  },
+  "modal.noActionFooter": {
+    "translation": "No Action Footer"
+  },
+  "modal.noActionNoHeader": {
+    "translation": "This modal has no header and no footer actions."
+  },
+  "modal.noFooterActions": {
+    "translation": "This modal has no footer actions."
+  },
+  "modal.openModal": {
+  },
+  "modal.primary.secondary": {
+    "translation": "Primary & Secondary"
+  },
+  "modal.primary.secondary.description": {
+    "translation": "This modal has both primary and secondary actions."
+  },
+  "modal.scrollable.content": {
+    "translation": "This modal is displayed on a scrollable page."
+  },
+  "modal.scrollable.page": {
+    "translation": "Modal on Scrollable Page"
+  },
+  "modal.testBodyContent": {
+  },
+  "modal.testHeader": {
+  },
+  "molecule.mediaPermissionCheck.allowAccessTitle": {
+    "translation": "Allow {device} Access"
+  },
+  "molecule.mediaPermissionCheck.ampersand": {
+    "translation": "&"
+  },
+  "molecule.mediaPermissionCheck.and": {
+    "translation": "and"
+  },
+  "molecule.mediaPermissionCheck.are": {
+    "translation": "are"
+  },
+  "molecule.mediaPermissionCheck.both": {
+    "translation": "both"
+  },
+  "molecule.mediaPermissionCheck.camera": {
+    "translation": "camera"
+  },
+  "molecule.mediaPermissionCheck.continueLabel": {
+    "translation": "Continue"
+  },
+  "molecule.mediaPermissionCheck.deniedDescription": {
+    "translation": "Your browser has blocked access to your {device}. This prevents us from completing the check."
+  },
+  "molecule.mediaPermissionCheck.deniedImageAltText": {
+    "translation": "Animated visual guide demonstrating how to enable camera or microphone access"
+  },
+  "molecule.mediaPermissionCheck.deniedStep1": {
+    "translation": "Click the {icon} in your browser's address bar"
+  },
+  "molecule.mediaPermissionCheck.deniedStep1Mobile": {
+    "translation": "Click the lock icon 🔒 in your browser's address bar"
+  },
+  "molecule.mediaPermissionCheck.deniedStep2": {
+    "translation": "Allow access to {device}"
+  },
+  "molecule.mediaPermissionCheck.deniedStep3": {
+    "translation": "Refresh the page to restart the check."
+  },
+  "molecule.mediaPermissionCheck.deniedTitle": {
+    "translation": "{device} Access Blocked"
+  },
+  "molecule.mediaPermissionCheck.idleDescription": {
+    "translation": "We need your browser's permission to test if your {device} {verb} working properly for your upcoming session. Click on the button below to continue."
+  },
+  "molecule.mediaPermissionCheck.is": {
+    "translation": "is"
+  },
+  "molecule.mediaPermissionCheck.microphone": {
+    "translation": "microphone"
+  },
+  "molecule.mediaPermissionCheck.or": {
+    "translation": "or"
+  },
+  "molecule.mediaPermissionCheck.requestingDescription": {
+    "translation": "Your browser will show a pop-up asking for access. Please click \"Allow\" when prompted."
+  },
+  "molecule.mediaPermissionCheck.toContinueLabel": {
+    "translation": "To continue:"
+  },
+  "molecules.Accordion.content.text": {
+    "translation": "Some content"
+  },
+  "molecules.Dropdown.add": {
+    "translation": "Add"
+  },
+  "molecules.InputVerification.digit": {
+    "translation": "Digit {index}"
+  },
+  "molecules.QuestionPlaylist.MarkAnswered": {
+    "translation": "Mark as Answered"
+  },
+  "molecules.QuestionPlaylist.MarkReview": {
+    "translation": "Mark as Reviewed"
+  },
+  "molecules.QuestionPlaylist.ariaLabel": {
+    "translation": "Question"
+  },
+  "molecules.QuestionPlaylist.heading": {
+    "translation": "Question View"
+  },
+  "molecules.QuestionPlaylist.message": {
+    "translation": "Please select a question from the playlist."
+  },
+  "molecules.QuestionPlaylist.question": {
+    "translation": "You have selected"
+  },
+  "molecules.QuestionPlaylist.role": {
+    "translation": "list"
+  },
+  "molecules.QuestionPlaylist.toggleButton": {
+    "translation": "Question Menu Button"
+  },
+  "molecules.QuestionPlaylist.unMarkAnswered": {
+    "translation": "Unmark Answered"
+  },
+  "molecules.QuestionPlaylist.unMarkReview": {
+    "translation": "Unmark Reviewed"
+  },
+  "molecules.Tabs.content.overview": {
+    "translation": "overview Content"
+  },
+  "molecules.Tabs.content.setting": {
+    "translation": "Setting Content"
+  },
+  "molecules.Timer.hide": {
+    "translation": "Hide Timer"
+  },
+  "molecules.Timer.recordIcon": {
+    "translation": "Live recording indicator"
+  },
+  "molecules.Timer.separator": {
+    "translation": "/"
+  },
+  "molecules.Timer.show": {
+    "translation": "Show Timer"
+  },
+  "molecules.cameraSupportCheck.accordion.label": {
+    "translation": "Camera"
+  },
+  "molecules.cameraSupportCheck.notSupported.description": {
+    "translation": "{cameraLabel} isn't compatible."
+  },
+  "molecules.cameraSupportCheck.notSupported.label": {
+    "translation": "Camera Not Supported"
+  },
+  "molecules.cameraSupportCheck.notSupported.secondPoint": {
+    "translation": "You must pass this check to move forward. Please switch to a supported camera and try again."
+  },
+  "molecules.cameraSupportCheck.status.failed": {
+    "translation": "Failed"
+  },
+  "molecules.cameraSupportCheck.status.passed": {
+    "translation": "Passed"
+  },
+  "molecules.cameraSupportCheck.status.testing": {
+    "translation": "Testing..."
+  },
+  "molecules.cameraSupportCheck.supported.description": {
+    "translation": "{cameraLabel} is compatible. You're good to go!"
+  },
+  "molecules.cameraSupportCheck.supported.label": {
+    "translation": "Camera Supported"
+  },
+  "molecules.cameraSupportCheck.supportedCameras.link": {
+    "translation": "List of supported cameras"
+  },
+  "molecules.chatBubbleAction.delete": {
+    "translation": "delete"
+  },
+  "molecules.chatBubbleAction.reply": {
+    "translation": "reply"
+  },
+  "molecules.chatBubbleContent.chatMessage": {
+    "translation": "chat message"
+  },
+  "molecules.chatBubbleContent.imageAlt": {
+    "translation": "file preview"
+  },
+  "molecules.chatBubbleContent.suggestedAction": {
+    "translation": "Suggested action: {label}"
+  },
+  "molecules.imageCapture.analysing": {
+    "translation": "Analysing image"
+  },
+  "molecules.imageCapture.cameraBlockedOverlay": {
+    "translation": "Camera Blocked"
+  },
+  "molecules.imageCapture.captureError": {
+    "translation": "Image capture failed"
+  },
+  "molecules.imageCapture.capturedImageAlt": {
+    "translation": "Captured image"
+  },
+  "molecules.imageCapture.faceGuideOverlay": {
+    "translation": "Face guide overlay"
+  },
+  "molecules.imageCapture.loading": {
+    "translation": "Initializing camera"
+  },
+  "molecules.imageCapture.videoStreamActive": {
+    "translation": "VideoStream Active"
+  },
+  "molecules.microphoneSupportCheck.accordion.label": {
+    "translation": "Microphone"
+  },
+  "molecules.microphoneSupportCheck.notSupported.description": {
+    "translation": "{microphoneLabel} isn't compatible."
+  },
+  "molecules.microphoneSupportCheck.notSupported.label": {
+    "translation": "Microphone Not Supported"
+  },
+  "molecules.microphoneSupportCheck.notSupported.secondPoint": {
+    "translation": "You must pass this check to move forward. Please switch to a supported microphone and try again."
+  },
+  "molecules.microphoneSupportCheck.status.failed": {
+    "translation": "Failed"
+  },
+  "molecules.microphoneSupportCheck.status.passed": {
+    "translation": "Passed"
+  },
+  "molecules.microphoneSupportCheck.status.testing": {
+    "translation": "Testing..."
+  },
+  "molecules.microphoneSupportCheck.supported.description": {
+    "translation": "{microphoneLabel} is compatible. You're good to go!"
+  },
+  "molecules.microphoneSupportCheck.supported.label": {
+    "translation": "Microphone Supported"
+  },
+  "molecules.microphoneSupportCheck.supportedMicrophones.link": {
+    "translation": "List of supported microphones"
+  },
+  "molecules.networkBandwidth.alt.bandwidthFailure": {
+    "translation": "Bandwidth failure illustration"
+  },
+  "molecules.networkBandwidth.alt.bandwidthLow": {
+    "translation": "Bandwidth low illustration"
+  },
+  "molecules.networkBandwidth.alt.bandwidthSuccess": {
+    "translation": "Bandwidth success illustration"
+  },
+  "molecules.networkBandwidth.bandwidthLabel": {
+    "translation": "Bandwidth"
+  },
+  "molecules.networkBandwidth.button.continue": {
+    "translation": "Continue"
+  },
+  "molecules.networkBandwidth.button.retest": {
+    "translation": "Retest"
+  },
+  "molecules.networkBandwidth.description.lowBandwidth": {
+    "translation": "Your internet speed doesn’t meet the recommended level."
+  },
+  "molecules.networkBandwidth.description.lowBandwidthSecondPoint": {
+    "translation": "You must pass this check to move forward. Please switch to a different network and try again."
+  },
+  "molecules.networkBandwidth.description.moderateBandwidth": {
+    "translation": "Your internet speed is lower than the recommended level. Consider switching networks."
+  },
+  "molecules.networkBandwidth.description.strongBandwidth": {
+    "translation": "Your internet speed meets the recommended level. You’re good to go!"
+  },
+  "molecules.networkBandwidth.help.text": {
+    "translation": "Low Bandwidth? Here’s how to fix them."
+  },
+  "molecules.networkBandwidth.label.lowBandwidth": {
+    "translation": "Low Bandwidth"
+  },
+  "molecules.networkBandwidth.label.moderateBandwidth": {
+    "translation": "Moderate Bandwidth"
+  },
+  "molecules.networkBandwidth.label.strongBandwidth": {
+    "translation": "Strong Bandwidth"
+  },
+  "molecules.networkBandwidth.status.failed": {
+    "translation": "Failed"
+  },
+  "molecules.networkBandwidth.status.passed": {
+    "translation": "Passed"
+  },
+  "molecules.networkBandwidth.status.testing": {
+    "translation": "Testing..."
+  },
+  "molecules.networkBandwidth.status.warning": {
+    "translation": "Warning"
+  },
+  "molecules.networkBandwidth.tooltip.label": {
+    "translation": "Measures the speed of your internet – how much data your connection can send and receive per second."
+  },
+  "molecules.networkConnectivityCheck.alt.connectivityFailure": {
+    "translation": "Connectivity failure illustration"
+  },
+  "molecules.networkConnectivityCheck.alt.connectivitySuccess": {
+    "translation": "Connectivity success illustration"
+  },
+  "molecules.networkConnectivityCheck.alt.connectivityUnstable": {
+    "translation": "Connectivity unstable illustration"
+  },
+  "molecules.networkConnectivityCheck.button.continue": {
+    "translation": "Continue"
+  },
+  "molecules.networkConnectivityCheck.button.retest": {
+    "translation": "Retest"
+  },
+  "molecules.networkConnectivityCheck.connectivityLabel": {
+    "translation": "Connectivity"
+  },
+  "molecules.networkConnectivityCheck.description.connected": {
+    "translation": "All systems are reachable. You’re good to go!"
+  },
+  "molecules.networkConnectivityCheck.description.noConnection": {
+    "translation": "We couldn’t reach the server."
+  },
+  "molecules.networkConnectivityCheck.description.noConnectionSecondPoint": {
+    "translation": "You must pass this check to move forward. Please check your internet connection and try again."
+  },
+  "molecules.networkConnectivityCheck.description.unstableConnection": {
+    "translation": "You might face delays and interruptions. Consider switching networks."
+  },
+  "molecules.networkConnectivityCheck.label.connected": {
+    "translation": "Stable Connection"
+  },
+  "molecules.networkConnectivityCheck.label.noConnection": {
+    "translation": "No Connection"
+  },
+  "molecules.networkConnectivityCheck.label.unstableConnection": {
+    "translation": "Connection Unstable"
+  },
+  "molecules.networkConnectivityCheck.status.failed": {
+    "translation": "Failed"
+  },
+  "molecules.networkConnectivityCheck.status.passed": {
+    "translation": "Passed"
+  },
+  "molecules.networkConnectivityCheck.status.testing": {
+    "translation": "Testing..."
+  },
+  "molecules.networkConnectivityCheck.status.warning": {
+    "translation": "Warning"
+  },
+  "molecules.networkConnectivityCheck.tooltip.label": {
+    "translation": "Shows whether your device can reach the internet and connect to our servers."
+  },
+  "molecules.networkLatency.alt.latencyFailure": {
+    "translation": "Latency failure illustration"
+  },
+  "molecules.networkLatency.alt.latencyModerate": {
+    "translation": "Latency moderate illustration"
+  },
+  "molecules.networkLatency.alt.latencySuccess": {
+    "translation": "Latency success illustration"
+  },
+  "molecules.networkLatency.button.continue": {
+    "translation": "Continue"
+  },
+  "molecules.networkLatency.button.retest": {
+    "translation": "Retest"
+  },
+  "molecules.networkLatency.description.highLatency": {
+    "translation": "You may experience delayed responses and out-of-sync audio/video."
+  },
+  "molecules.networkLatency.description.highLatency.secondPoint": {
+    "translation": "You must pass this check to move forward. Please review your internet connection and try again."
+  },
+  "molecules.networkLatency.description.lowLatency": {
+    "translation": "Your connection is stable with low latency."
+  },
+  "molecules.networkLatency.description.moderateLatency": {
+    "translation": "You may experience slight delays in audio or video."
+  },
+  "molecules.networkLatency.help.text": {
+    "translation": "How to fix high or moderate latency? Troubleshooting Guide."
+  },
+  "molecules.networkLatency.label.highLatency": {
+    "translation": "High Latency Detected"
+  },
+  "molecules.networkLatency.label.lowLatency": {
+    "translation": "Low Latency Detected"
+  },
+  "molecules.networkLatency.label.moderateLatency": {
+    "translation": "Moderate Latency Detected"
+  },
+  "molecules.networkLatency.latencyLabel": {
+    "translation": "Latency"
+  },
+  "molecules.networkLatency.status.failed": {
+    "translation": "Failed"
+  },
+  "molecules.networkLatency.status.passed": {
+    "translation": "Passed"
+  },
+  "molecules.networkLatency.status.testing": {
+    "translation": "Testing..."
+  },
+  "molecules.networkLatency.status.warning": {
+    "translation": "Warning"
+  },
+  "molecules.networkLatency.tooltip.label": {
+    "translation": "Measures delay – how quickly your device can send a request and get a response. Lower is better."
+  },
+  "molecules.timeline.thumbLabel": {
+    "translation": "Thumb"
+  },
+  "paARSL": {
+    "translation": "Section {sectionNumber}"
+  }
+}

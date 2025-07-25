@@ -1,0 +1,89 @@
+name: Build
+on:
+  push:
+    branches:
+      - develop
+      - master
+  pull_request:
+
+concurrency:
+  group: '${{ github.workflow }}-${{ github.ref }}'
+  cancel-in-progress: false
+jobs:
+  unit:
+    runs-on: self-hosted
+    if: contains(github.event.head_commit.message, 'skip ci') == false
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        name: bootstrap
+        with:
+          node-version: 20.x
+
+      - name: Setup yarn version
+        run: |-
+          corepack enable
+          yarn set version 4.9.2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'yarn'
+          cache-dependency-path: 'yarn.lock'
+
+      - name: Install dependencies
+        run: yarn install --immutable --silent --inline-builds --network-timeout 600000
+
+      - name: Run tests
+        run: yarn test
+        env:
+          CI: true
+
+  storybook:
+    name: storybook
+    runs-on: self-hosted
+    needs: unit
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        name: bootstrap
+        with:
+          node-version: 20.x
+
+      - name: Setup yarn version
+        run: |-
+          corepack enable
+          yarn set version 4.9.2
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.x
+          cache: 'yarn'
+          cache-dependency-path: 'yarn.lock'
+
+      - uses: dorny/paths-filter@v3
+        id: changes
+        with:
+          filters: |
+            snap:
+              - '**/*.snap'
+
+      - name: Install dependencies
+        if: steps.changes.outputs.snap == 'true'
+        run: yarn install --immutable --silent --inline-builds --network-timeout 600000
+
+      - name: Publish to Chromatic
+        if: steps.changes.outputs.snap == 'true'
+        uses: chromaui/action@latest
+        with:
+          projectToken: chpt_ec64597b4b4a596
+          onlyChanged: true
+          zip: true
+          autoAcceptChanges: "develop"
+        env:
+          STORYBOOK_APP_ENV: 'storybook'
