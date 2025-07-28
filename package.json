@@ -48,7 +48,7 @@
     "@radix-ui/react-tooltip": "^1.2.7",
     "@radix-ui/themes": "^3.2.1",
     "@reduxjs/toolkit": "^2.6.0",
-    "@sentry/react": "^9.6.0",
+    "@sentry/react": "^9.42.0",
     "@storybook/jest": "^0.2.3",
     "@storybook/testing-library": "^0.2.2",
     "@tailwindcss/postcss": "^4.0.9",
