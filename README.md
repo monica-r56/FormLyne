@@ -1,51 +1,73 @@
-# 🚀 FormLyne – Forms for Linear Issues
+# Welcome to your Lovable project
 
-**FormLyne** is a powerful form-builder web application integrated with the [Linear](https://linear.app) issue tracking system. It enables users to seamlessly create and submit form responses that generate issues directly in Linear.
+## Project info
 
-Users can log in with **Google authentication** and securely connect to their Linear workspace using **OAuth 2.0**, enabling real-time form handling, static or dynamic (custom) form creation, and effortless issue submission — all wrapped in a polished, responsive UI with dark/light theming support.
+**URL**: https://lovable.dev/projects/6e3f0f83-5f99-46f7-b961-c79c4369b9c7
 
----
+## How can I edit this code?
 
-## 🧩 Tech Stack
+There are several ways of editing your application.
 
-| **Layer**        | **Technology**                                      |
-|------------------|------------------------------------------------------|
-| **Frontend**     | React.js (TypeScript), Tailwind CSS                  |
-| **Backend**      | Firebase Firestore                                   |
-| **Authentication** | Google (Firebase Auth), Linear OAuth 2.0         |
-| **Dev Tools**    | Storybook, Cypress                                   |
-| **Integration**  | Linear API, BlockNote Text Editor                    |
-| **Hosting**      | Firebase Hosting                                     |
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/6e3f0f83-5f99-46f7-b961-c79c4369b9c7) and start prompting.
 
-## ✨ Features
+Changes made via Lovable will be committed automatically to this repo.
 
-✅ **Google & Linear Authentication** – Seamlessly log in with Firebase & connect to your Linear workspace  
-✅ **Static & Dynamic Forms** – Pick from pre-built templates or build your own custom forms  
-✅ **Rich Text Editing** – Integrated [BlockNote](https://blocknotejs.org/) WYSIWYG editor for form descriptions  
-✅ **Media File Support** – Upload images, PDFs, and other media (max size: 10MB per file)  
-✅ **Dynamic Form Builder** – Drag-and-drop fields from categories like text, number, dropdown, etc.  
-✅ **Sharable Form URLs** – Generate and share links for form access with or without login  
-✅ **Responsive Design** – Optimized for both web and mobile platforms  
-✅ **Dark/Light Theme Toggle** – Accessible theme switching across the app  
-✅ **Reusable UI Components** – Modular design system with custom hooks and atomic structure  
-✅ **Robust Error Handling** – Comprehensive error messaging and event tracking  
-✅ **Storybook Integration** – Live preview of components for isolated UI development  
-✅ **E2E Testing with Cypress** – Ensure reliability through automated integration tests  
+**Use your preferred IDE**
 
-## 📦 Installation & Setup
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-> ```bash
-> git clone https://github.com/your-org/formlyne.git
-> cd formlyne
-> npm install
-> npm run dev
-> ```
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
+Follow these steps:
 
-## 🔗 Integrations
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-- 🔗 [Linear API](https://developers.linear.app/docs/graphql/get-started)
-- ✍️ [BlockNote Editor](https://blocknotejs.org/)
-- ☁️ Firebase Firestore + Firebase Hosting
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/6e3f0f83-5f99-46f7-b961-c79c4369b9c7) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)

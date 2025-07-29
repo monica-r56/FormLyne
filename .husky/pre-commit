@@ -1,5 +1,0 @@
-yarn run extract-intl && git add app/locale/
-
-yarn lint-staged
-
-yarn test-storybook:ci
