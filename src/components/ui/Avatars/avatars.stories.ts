@@ -2,8 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Avatar from '.';
 
 const meta = {
-  title: 'Components/Atoms/Avatar',
+  title: 'Components/UI/Avatar',
   component: Avatar,
+  tags: ['autodocs'],
   argTypes: {
     size: {
       control: 'select',

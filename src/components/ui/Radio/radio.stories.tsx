@@ -17,8 +17,9 @@ const RadioGroup = React.forwardRef<
 RadioGroup.displayName = 'RadioGroup';
 
 const meta: Meta<RadioGroupItemProps> = {
-  title: 'components/Atoms/Radio',
+  title: 'components/UI/Radio',
   component: RadioGroupItem,
+  tags: ['autodocs'],
   argTypes: {
     asChild: { table: { disable: true } },
     checked: { control: 'boolean' },

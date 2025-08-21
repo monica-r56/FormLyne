@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlus } from '@fortawesome/free-solid-svg-icons';
 
 const meta: Meta<typeof TabList> = {
-  title: 'Components/molecules/Tabs',
+  title: 'Components/UI/Tabs',
   component: TabList,
   tags: ['autodocs'],
   argTypes: {

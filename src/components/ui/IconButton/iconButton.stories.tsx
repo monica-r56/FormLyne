@@ -5,8 +5,9 @@ import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 import { within, userEvent } from '@storybook/testing-library';
 
 const meta = {
-  title: 'components/Atoms/IconButton',
+  title: 'components/UI/IconButton',
   component: IconButton,
+  tags: ['autodocs'],
   argTypes: {
     type: { control: { type: 'select', options: ['Primary', 'Secondary', 'Tertiary'] } },
     color: { control: { type: 'select', options: ['blue', 'red', 'gray'] } },

@@ -5,7 +5,7 @@ import { faPause, faPlay } from '@fortawesome/free-solid-svg-icons';
 import { RTIconButton } from '.';
 
 const meta: Meta<typeof RTIconButton> = {
-  title: 'components/Atoms/RTIconButton',
+  title: 'components/UI/RTIconButton',
   component: RTIconButton,
   tags: ['autodocs'],
   argTypes: {

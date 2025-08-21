@@ -3,7 +3,7 @@ import { userEvent, within } from '@storybook/testing-library';
 import { ToggleProps, Toggle } from '.';
 
 const meta: Meta<typeof Toggle> = {
-  title: 'components/Atoms/Toggle',
+  title: 'components/UI/Toggle',
   component: Toggle,
   tags: ['autodocs'],
   argTypes: {

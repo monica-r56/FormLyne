@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Timer from '.';
 
 const meta: Meta<typeof Timer> = {
-  title: 'components/molecules/Timer',
+  title: 'components/UI/Timer',
   component: Timer,
   tags: ['autodocs'],
   argTypes: {

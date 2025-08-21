@@ -55,7 +55,6 @@ export const ModalFooter: FC<{
     >
       {secondaryBtnConfig && (
         <Button
-          type="button"
           color="gray"
           {...secondaryBtnConfig}
           onClick={() => handleClick('secondary', secondaryBtnConfig.onClick)}
@@ -64,7 +63,6 @@ export const ModalFooter: FC<{
       {primaryBtnConfig && (
         <div className={clsx(clickedButton === 'primary' && contentLoading && 'opacity-50')}>
           <Button
-            type="button"
             color="blue"
             {...primaryBtnConfig}
             disabled={primaryBtnConfig.disabled || contentLoading}

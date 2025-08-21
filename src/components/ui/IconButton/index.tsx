@@ -7,18 +7,19 @@ import { twMerge } from 'tailwind-merge';
 type Size = 'sm' | 'md';
 
 const iconButtonVariants = cva(
-  'relative flex items-center justify-center cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed focus-visible:outline ',
+  'relative flex items-center justify-center cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed focus-visible:outline',
   {
     variants: {
       type: {
         Primary: 'text-white',
         Secondary: '',
-        Tertiary: 'bg-transparent disabled:hover:bg-transparent dark:disabled:hover:bg-zinc-900 dark:border-zinc-600 ',
+        Tertiary: 'bg-transparent disabled:hover:bg-transparent dark:disabled:hover:bg-zinc-900 dark:border-zinc-600',
       },
       color: {
         blue: 'focus-visible:outline-blue-700',
         red: 'focus-visible:outline-red-700',
         gray: 'active:bg-zinc-100 focus-visible:outline-zinc-700 text-zinc-900 dark:text-zinc-100 dark:active:bg-zinc-700 hover:bg-zinc-50',
+        none: '',
       },
       rounded: {
         true: 'rounded-full',
@@ -41,12 +42,12 @@ const iconButtonVariants = cva(
       {
         type: 'Primary',
         color: 'blue',
-        className: 'bg-blue-700 disabled:hover:bg-blue-700 hover:bg-blue-800 active:bg-blue-900 ',
+        className: 'bg-blue-700 disabled:hover:bg-blue-700 hover:bg-blue-800 active:bg-blue-900',
       },
       {
         type: 'Primary',
         color: 'red',
-        className: 'bg-red-600 disabled:hover:bg-red-600 hover:bg-red-700 active:bg-red-800 ',
+        className: 'bg-red-600 disabled:hover:bg-red-600 hover:bg-red-700 active:bg-red-800',
       },
       {
         type: 'Secondary',
@@ -112,12 +113,6 @@ const iconButtonVariants = cva(
         className: 'w-[14px] p-0',
       },
     ],
-    defaultVariants: {
-      type: 'Primary',
-      color: 'blue',
-      rounded: false,
-      floating: false,
-    },
   }
 );
 
@@ -132,13 +127,13 @@ type BaseProps = Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, 'type' | 'c
 
 export interface IconButtonProps extends BaseProps {
   type?: 'Primary' | 'Secondary' | 'Tertiary';
-  color?: 'blue' | 'red' | 'gray';
+  color?: 'blue' | 'red' | 'gray' | 'none';
 }
 
 export const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(function IconButton(
   {
-    type = 'Primary',
-    color = 'blue',
+    type,
+    color,
     size = 'md',
     rounded = false,
     floating = false,
@@ -153,15 +148,18 @@ export const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(f
 ) {
   const isDisabled = disabled;
   const isLoading = loading;
-  const adjustedType = color === 'gray' && type === 'Primary' ? 'Secondary' : type;
+
+  // Default type/color only if not fully custom
+  const adjustedType = !type && !color ? undefined : (color === 'gray' && type === 'Primary' ? 'Secondary' : type);
+
   const spinnerColor: 'white' | 'red' | 'blue' | 'black' =
-    type === 'Primary' && (color === 'blue' || color === 'red')
+    adjustedType === 'Primary' && (color === 'blue' || color === 'red')
       ? 'white'
-      : (type === 'Secondary' || type === 'Tertiary') && color === 'blue'
-        ? 'blue'
-        : color === 'red'
-          ? 'red'
-          : 'black';
+      : (adjustedType === 'Secondary' || adjustedType === 'Tertiary') && color === 'blue'
+      ? 'blue'
+      : color === 'red'
+      ? 'red'
+      : 'black';
 
   const spinnerSize = menuTrigger ? '2xs' : size === 'sm' ? 'xs' : 'sm';
 
@@ -172,10 +170,12 @@ export const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(f
       aria-busy={loading}
       disabled={isDisabled || isLoading}
       className={twMerge(
-        iconButtonVariants({ type: adjustedType, color, rounded, floating, size, menuTrigger }),
-        className,
+        adjustedType && color
+          ? iconButtonVariants({ type: adjustedType, color, rounded, floating, size, menuTrigger })
+          : '',
         loading && 'relative',
-        isLoading && !disabled && 'disabled:opacity-100'
+        isLoading && !disabled && 'disabled:opacity-100',
+        className // ✅ Always applied last for override
       )}
       {...props}
     >

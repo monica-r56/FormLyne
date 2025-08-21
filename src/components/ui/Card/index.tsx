@@ -7,27 +7,42 @@ type ButtonPropsSubset = Omit<React.ButtonHTMLAttributes<HTMLButtonElement>, 'ty
 
 interface CardProps {
   className?: string;
-  label: string;
+  label?: string;
   labelClassName?: string;
-  buttonLabel: string;
+  buttonLabel?: string;
   buttonProps?: ButtonPropsSubset;
+  children?: React.ReactNode; // ✅ added children
 }
 
-const Card: React.FC<CardProps> = ({ className, label, labelClassName, buttonLabel, buttonProps }) => {
+const Card: React.FC<CardProps> = ({
+  className,
+  label,
+  labelClassName,
+  buttonLabel,
+  buttonProps,
+  children,
+}) => {
   return (
     <div
       className={twMerge(
-        'flex h-full w-full flex-col items-center justify-center gap-4 rounded-[8px] border border-zinc-200 bg-white py-6 dark:border-zinc-700 dark:bg-zinc-900',
+        'flex h-full w-full flex-col rounded-[8px] border border-zinc-200 bg-zinc-100  dark:border-zinc-700 dark:bg-zinc-900',
         className
       )}
     >
-      <div>
-        <LabelGroup label={label} labelClassName={labelClassName} />
-      </div>
-
-      <div>
-        <Button label={buttonLabel} type="button" color="gray" {...buttonProps} />
-      </div>
+      {children ? (
+        children 
+      ) : (
+        <>
+          <div>
+            <LabelGroup label={label} labelClassName={labelClassName} />
+          </div>
+          {buttonLabel && (
+            <div>
+              <Button label={buttonLabel} type="button" color="gray" {...buttonProps} />
+            </div>
+          )}
+        </>
+      )}
     </div>
   );
 };

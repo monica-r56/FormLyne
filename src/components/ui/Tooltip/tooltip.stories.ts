@@ -6,7 +6,7 @@ import { Tooltip } from '.';
 import { within, userEvent } from '@storybook/testing-library';
 
 const meta = {
-  title: 'components/Atoms/Tooltip',
+  title: 'components/UI/Tooltip',
   component: Tooltip,
   parameters: {
     layout: 'centered',

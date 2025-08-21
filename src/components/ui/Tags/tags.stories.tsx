@@ -6,7 +6,7 @@ import { faCheck } from '@fortawesome/free-solid-svg-icons';
 import Avatar from '../Avatars';
 
 export default {
-  title: 'Components/Atoms/Tags',
+  title: 'Components/UI/Tags',
   component: Tags,
   tags: ['autodocs'],
   parameters: {

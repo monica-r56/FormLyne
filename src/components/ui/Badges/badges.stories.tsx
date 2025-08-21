@@ -1,4 +1,6 @@
+import React from 'react';
 import { Meta, StoryFn } from '@storybook/react';
+import { IntlProvider } from 'react-intl';
 import { FormattedMessage } from 'react-intl';
 import Badge from '.';
 import messages from './message';
@@ -7,9 +9,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPen } from '@fortawesome/free-solid-svg-icons';
 
 export default {
-  title: 'components/Atoms/Badge',
+  title: 'components/UI/Badge',
   component: Badge,
   tags: ['autodocs'],
+  decorators: [
+    (Story) => (
+      <IntlProvider locale="en" messages={{ 'messages.badgeButtonCTA': 'Click Me' }}>
+        <Story />
+      </IntlProvider>
+    ),
+  ],
   argTypes: {
     color: {
       control: 'select',
@@ -72,7 +81,7 @@ DotBadge.args = {
 export const IconBadge = Template.bind({});
 IconBadge.args = {
   color: 'green',
-  content: <FontAwesomeIcon icon={faPen} width={10} height={10} />,
+  content: <FontAwesomeIcon icon={faPen} width={8} height={8} />,
   children: (
     <button className="inline-flex items-center justify-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 shadow-sm transition hover:bg-gray-100 focus:ring-2 focus:ring-gray-400 focus:outline-none dark:bg-zinc-900">
       <FormattedMessage {...messages.badgeButtonCTA} />
@@ -83,7 +92,7 @@ IconBadge.args = {
 export const PositionedBadge = Template.bind({});
 PositionedBadge.args = {
   color: 'orange',
-  content: <FontAwesomeIcon icon={faPen} width={10} height={10} />,
+  content: <FontAwesomeIcon icon={faPen} width={8} height={8} />,
   position: 'bottom-left',
   children: (
     <button className="inline-flex items-center justify-center gap-1 rounded-md border border-gray-300 bg-white px-3 py-2 shadow-sm transition hover:bg-gray-100 focus:ring-2 focus:ring-gray-400 focus:outline-none dark:bg-zinc-900">
@@ -95,7 +104,7 @@ PositionedBadge.args = {
 export const AvatarBadge = Template.bind({});
 AvatarBadge.args = {
   color: 'red',
-  content: <FontAwesomeIcon icon={faPen} width={10} height={10} />,
+  content: <FontAwesomeIcon icon={faPen} width={8} height={8} />,
   position: 'top-right',
   overlay: 'circular',
   children: <Avatar />,

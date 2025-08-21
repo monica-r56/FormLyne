@@ -5,7 +5,7 @@ import { expect } from '@storybook/jest';
 import React from 'react';
 
 const meta: Meta<typeof Slider> = {
-  title: 'Components/Atoms/Slider',
+  title: 'Components/UI/Slider',
   component: Slider,
   tags: ['autodocs'],
   argTypes: {

@@ -3,8 +3,9 @@ import Divider from '.';
 import messages from './messages';
 
 const meta = {
-  title: 'Components/Atoms/Divider',
+  title: 'Components/UI/Divider',
   component: Divider,
+  tags: ['autodocs'],
   argTypes: {
     type: {
       control: 'select',

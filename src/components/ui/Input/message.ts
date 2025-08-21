@@ -2,7 +2,7 @@ import { defineMessages, MessageDescriptor } from 'react-intl';
 
 const messages = defineMessages({
   ariaLabel: {
-    id: 'atoms.Input.ariaLabel',
+    id: 'Input.ariaLabel',
     defaultMessage: 'Input Field',
   },
 });

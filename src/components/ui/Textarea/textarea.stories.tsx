@@ -3,7 +3,7 @@ import { TextArea, TextAreaProps } from '.';
 import { within, userEvent } from '@storybook/testing-library';
 
 const meta: Meta<TextAreaProps> = {
-  title: 'components/Atoms/TextArea',
+  title: 'components/UI/TextArea',
   component: TextArea,
   tags: ['autodocs'],
   argTypes: {

@@ -27,6 +27,8 @@ interface DropdownProps {
   defaultSelected?: string;
   onValueChange?: (val: string) => void;
   onCreateOption?: (val: string) => void;
+  menuClassName?: string;        
+  itemClassName?: string; 
 }
 
 export const Dropdown: FC<DropdownProps> = ({
@@ -143,7 +145,7 @@ export const Dropdown: FC<DropdownProps> = ({
 
       {open && (filtered.length > 0 || shouldShowCreate) && (
         <div
-          className="absolute z-50 mt-1 max-h-47 w-full overflow-auto rounded-md border bg-white p-1 shadow-md dark:bg-zinc-800"
+          className="absolute z-50 mt-1 max-h-47 w-full overflow-auto rounded-md border focus:outline-none focus:ring-1 focus:ring-blue-600 dark:focus:ring-blue-300 bg-white p-1 shadow-md dark:bg-zinc-800"
           role="listbox"
         >
           {map(filtered, (item) => (
@@ -170,12 +172,12 @@ export const Dropdown: FC<DropdownProps> = ({
             <div
               role="button"
               tabIndex={0}
-              className="flex cursor-pointer items-center gap-2 px-3 py-2 text-sm hover:bg-gray-100 dark:hover:bg-zinc-700"
+              className="flex cursor-pointer items-center gap-2 px-3 py-2 text-sm font-medium hover:bg-gray-100 dark:hover:bg-zinc-700"
               onClick={handleCreate}
               onKeyDown={(e) => handleKeyDown(e, handleCreate)}
             >
               <span>
-                <FormattedMessage id="molecules.Dropdown.add" defaultMessage="Add" />
+                <FormattedMessage id="Dropdown.add" defaultMessage="Add" />
                 <span className="ml-1 font-medium">{search}</span>
               </span>
             </div>

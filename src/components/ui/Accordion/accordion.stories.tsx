@@ -17,7 +17,7 @@ type AccordionStoryProps = {
 };
 
 const meta: Meta<AccordionStoryProps> = {
-  title: 'components/molecules/Accordion',
+  title: 'components/UI/Accordion',
   component: Accordion,
   tags: ['autodocs'],
   argTypes: {

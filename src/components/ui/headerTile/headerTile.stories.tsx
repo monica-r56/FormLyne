@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import HeaderTile from '.';
 
 const meta: Meta<typeof HeaderTile> = {
-  title: 'Components/Atoms/HeaderTile',
+  title: 'Components/UI/HeaderTile',
   component: HeaderTile,
   tags: ['autodocs'],
   argTypes: {
@@ -31,6 +31,6 @@ export const Default: Story = {
 export const WithCustomLabelClass: Story = {
   args: {
     label: 'Compatibility',
-    labelClassName: 'text-lg font-medium text-zinc-900',
+    labelClassName: 'text-lg font-medium text-zinc-900 dark:text-zinc-200',
   },
 };

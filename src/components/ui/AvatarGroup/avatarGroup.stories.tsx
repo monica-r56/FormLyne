@@ -80,7 +80,7 @@ const sampleAvatarsBadge: AvatarWithBadge[] = [
 ];
 
 const meta: Meta<typeof AvatarGroup> = {
-  title: 'components/molecules/AvatarGroup',
+  title: 'components/UI/AvatarGroup',
   component: AvatarGroup,
   tags: ['autodocs'],
   argTypes: {

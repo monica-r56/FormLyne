@@ -4,7 +4,7 @@ import RTButton from '.';
 import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
 const meta: Meta<typeof RTButton> = {
-  title: 'components/Atoms/RTButton',
+  title: 'components/UI/RTButton',
   component: RTButton,
   tags: ['autodocs'],
   argTypes: {

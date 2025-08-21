@@ -217,7 +217,7 @@ const Timer = forwardRef<TimerHandle, TimerProps>(
             <span>
               {timerDisplay}
               <span className="mx-1">
-                <FormattedMessage id="molecules.Timer.separator" defaultMessage="/" />
+                <FormattedMessage id="Timer.separator" defaultMessage="/" />
               </span>
             </span>
             <span className={clsx(type === 'secondary' && 'text-zinc-500 dark:text-zinc-400')}>{maxDisplay}</span>

@@ -5,8 +5,9 @@ import { within, userEvent } from '@storybook/testing-library';
 import { Input, InputProps } from '.';
 
 const meta: Meta<typeof Input> = {
-  title: 'components/Atoms/Input',
+  title: 'components/UI/Input',
   component: Input,
+  tags: ['autodocs'],
   argTypes: {
     placeholder: { control: 'text' },
     error: { control: 'boolean' },

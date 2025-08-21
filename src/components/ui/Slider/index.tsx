@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as SliderPrimitive from '@radix-ui/react-slider';
 import { cva } from 'class-variance-authority';
-import { useIntl } from 'react-intl';
+//import { useIntl } from 'react-intl';
 import clsx from 'clsx';
 import _ from 'lodash';
 
@@ -87,7 +87,7 @@ const Slider = React.forwardRef<HTMLDivElement, SliderProps>(
     },
     ref
   ) => {
-    const intl = useIntl();
+    //const intl = useIntl();
 
     const isControlled = value !== undefined;
     const normalizedValue = value ? (Array.isArray(value) ? value : [value]) : undefined;
@@ -152,7 +152,7 @@ const Slider = React.forwardRef<HTMLDivElement, SliderProps>(
               <SliderPrimitive.Thumb
                 key={index}
                 className={`${thumbVariants({ color })} ${sizes.thumbSize}`}
-                aria-label={intl.formatMessage({ id: 'atoms.Slider.thumbLabel', defaultMessage: 'Thumb' })}
+                //aria-label={intl.formatMessage({ id: 'Slider.thumbLabel', defaultMessage: 'Thumb' })}
               />
             ))}
           </SliderPrimitive.Root>

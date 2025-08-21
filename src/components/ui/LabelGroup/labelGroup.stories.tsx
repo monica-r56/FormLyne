@@ -7,7 +7,7 @@ import { RadioGroupItem } from '../Radio';
 import Avatar from '../Avatars';
 
 const meta: Meta<typeof LabelGroup> = {
-  title: 'components/Atoms/labelGroup',
+  title: 'components/UI/labelGroup',
   component: LabelGroup,
   tags: ['autodocs'],
 };

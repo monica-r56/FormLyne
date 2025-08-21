@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import SkeletonLoader from '.';
 
 const meta: Meta<typeof SkeletonLoader> = {
-  title: 'components/Atoms/SkeletonLoader',
+  title: 'components/UI/SkeletonLoader',
   component: SkeletonLoader,
   tags: ['autodocs'],
   argTypes: {

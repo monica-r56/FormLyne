@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Timeline } from './index';
 
 const meta: Meta<typeof Timeline> = {
-  title: 'components/Molecules/Timeline',
+  title: 'components/UI/Timeline',
   component: Timeline,
   tags: ['autodocs'],
   argTypes: {

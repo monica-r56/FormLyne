@@ -19,7 +19,7 @@ const colorMap: Record<NonNullable<ProgressBarProps['color']>, string> = {
   red: 'bg-red-600 stroke-red-600 ',
   yellow: 'bg-yellow-300 stroke-yellow-300',
 };
-
+ 
 const sizeMap: Record<NonNullable<ProgressBarProps['size']>, string> = {
   sm: 'h-[2px]',
   md: 'h-[4px]',
@@ -42,7 +42,7 @@ export const ProgressIndicator: React.FC<ProgressBarProps> = ({
 }) => {
   const clampedValue = Math.min(Math.max(value, 0), 100);
 
-  const valueUnit = <span className="text-xs">{'value'}</span>;
+  const valueUnit = '%';
   //const ariaLabel = label || msg('ariaLabel');
 
   const progressValue = `${clampedValue}${valueUnit}`;

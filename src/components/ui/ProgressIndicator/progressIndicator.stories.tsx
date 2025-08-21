@@ -3,7 +3,7 @@ import { ProgressIndicator } from '.';
 import message from './message';
 
 const meta: Meta<typeof ProgressIndicator> = {
-  title: 'Components/Atoms/ProgressBar',
+  title: 'Components/UI/ProgressBar',
   component: ProgressIndicator,
   argTypes: {
     variant: {

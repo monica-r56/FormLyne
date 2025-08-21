@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
 const meta: Meta<typeof TextLink> = {
-  title: 'Components/Atoms/TextLink',
+  title: 'Components/UI/TextLink',
   component: TextLink,
   tags: ['autodocs'],
   argTypes: {

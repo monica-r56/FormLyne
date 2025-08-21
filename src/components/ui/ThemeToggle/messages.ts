@@ -2,11 +2,11 @@ import { defineMessages } from 'react-intl';
 
 export default defineMessages({
   light: {
-    id: 'atoms.theme-toggle.light',
+    id: 'theme-toggle.light',
     defaultMessage: 'Switch to light mode',
   },
   dark: {
-    id: 'atoms.theme-toggle.dark',
+    id: 'theme-toggle.dark',
     defaultMessage: 'Switch to dark mode',
   },
 });

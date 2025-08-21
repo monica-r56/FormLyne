@@ -2,7 +2,7 @@ import { defineMessages } from 'react-intl';
 
 const messages = defineMessages({
   thumbLabel: {
-    id: 'molecules.timeline.thumbLabel',
+    id: 'timeline.thumbLabel',
     defaultMessage: 'Thumb',
   },
 });

@@ -38,7 +38,7 @@ const getIcons = (iconConfiguration: string, spaced: boolean) => {
 };
 
 const meta: Meta<MenuItemStoryProps> = {
-  title: 'components/molecules/MenuItem',
+  title: 'components/UI/MenuItem',
   tags: ['autodocs'],
   argTypes: {
     label: { control: 'text', defaultValue: 'Menu Item' },

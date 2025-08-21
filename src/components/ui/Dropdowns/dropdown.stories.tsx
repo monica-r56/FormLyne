@@ -2,8 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Dropdown } from '.';
 
 const meta: Meta<typeof Dropdown> = {
-  title: 'components/molecules/Dropdown',
+  title: 'components/UI/Dropdown',
   component: Dropdown,
+  tags: ['autodocs'],
 };
 
 export default meta;

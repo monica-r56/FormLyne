@@ -8,6 +8,7 @@ export interface ModalProps {
   dismissable?: boolean;
   className?: string;
   width?: string;
+  title?:string;
   onClose?: () => void;
   initialLoading?: boolean;
 }

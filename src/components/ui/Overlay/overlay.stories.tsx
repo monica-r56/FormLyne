@@ -4,7 +4,7 @@ import Overlay from './index';
 import { overlayMessages } from './messages';
 
 const meta: Meta<typeof Overlay> = {
-  title: 'components/Atoms/Overlay',
+  title: 'components/UI/Overlay',
   component: Overlay,
   parameters: {
     layout: 'fullscreen',

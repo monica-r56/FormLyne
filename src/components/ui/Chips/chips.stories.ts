@@ -2,8 +2,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import Chip from '.';
 
 const meta = {
-  title: 'Components/Atoms/Chip',
+  title: 'Components/UI/Chip',
   component: Chip,
+  tags: ['autodocs'],
   argTypes: {
     size: {
       control: 'select',

@@ -5,7 +5,7 @@ import { fireEvent, screen, waitFor } from '@storybook/testing-library';
 import CheckboxGroup from '.';
 
 const meta: Meta<typeof CheckboxGroup> = {
-  title: 'components/molecules/CheckboxGroup',
+  title: 'components/UI/CheckboxGroup',
   component: CheckboxGroup,
   tags: ['autodocs'],
   argTypes: {

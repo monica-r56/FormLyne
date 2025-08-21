@@ -5,7 +5,8 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { Loader } from '../Loader';
 
 const meta: Meta<typeof InputChips> = {
-  title: 'Components/molecules/InputChips',
+  title: 'Components/UI/InputChips',
+  tags: ['autodocs'],
   component: InputChips,
   args: {
     disabled: false,

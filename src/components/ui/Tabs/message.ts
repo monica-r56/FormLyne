@@ -2,11 +2,11 @@ import { defineMessages, MessageDescriptor } from 'react-intl';
 
 const messages = defineMessages({
   OverviewContent: {
-    id: 'molecules.Tabs.content.overview',
+    id: 'Tabs.content.overview',
     defaultMessage: 'overview Content',
   },
   SettingContent: {
-    id: 'molecules.Tabs.content.setting',
+    id: 'Tabs.content.setting',
     defaultMessage: 'Setting Content',
   },
 });

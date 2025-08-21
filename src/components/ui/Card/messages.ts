@@ -2,11 +2,11 @@ import { defineMessages } from 'react-intl';
 
 export default defineMessages({
   test: {
-    id: 'atoms.Card.test',
+    id: 'Card.test',
     defaultMessage: 'Test',
   },
   loading: {
-    id: 'atoms.Card.loading',
+    id: 'Card.loading',
     defaultMessage: 'Loading',
   },
 });

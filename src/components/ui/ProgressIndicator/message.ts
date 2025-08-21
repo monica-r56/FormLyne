@@ -2,15 +2,15 @@ import { defineMessages } from 'react-intl';
 
 export default defineMessages({
   value: {
-    id: 'atoms.ProgressIndicator.value',
+    id: 'ProgressIndicator.value',
     defaultMessage: '%',
   },
   label: {
-    id: 'atoms.ProgressIndicator.label',
+    id: 'ProgressIndicator.label',
     defaultMessage: 'Text Label',
   },
   ariaLabel: {
-    id: 'atoms.ProgressIndicator.ariaLabel',
+    id: 'ProgressIndicator.ariaLabel',
     defaultMessage: 'Progress',
   },
 });

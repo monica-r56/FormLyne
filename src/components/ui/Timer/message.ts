@@ -2,19 +2,19 @@ import { defineMessages } from 'react-intl';
 
 const message = defineMessages({
   show: {
-    id: 'molecules.Timer.show',
+    id: 'Timer.show',
     defaultMessage: 'Show Timer',
   },
   hide: {
-    id: 'molecules.Timer.hide',
+    id: 'Timer.hide',
     defaultMessage: 'Hide Timer',
   },
   separator: {
-    id: 'molecules.Timer.separator',
+    id: 'Timer.separator',
     defaultMessage: '/',
   },
   recordIcon: {
-    id: 'molecules.Timer.recordIcon',
+    id: 'Timer.recordIcon',
     defaultMessage: 'Live recording indicator',
   },
 });

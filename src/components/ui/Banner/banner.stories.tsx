@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWifi } from '@fortawesome/free-solid-svg-icons';
 
 const meta: Meta<typeof Banner> = {
-  title: 'Components/Atoms/Banner',
+  title: 'Components/UI/Banner',
   component: Banner,
   tags: ['autodocs'],
   argTypes: {
